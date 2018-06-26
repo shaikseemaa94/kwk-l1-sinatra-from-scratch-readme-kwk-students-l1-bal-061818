@@ -1,8 +1,8 @@
-require 'sinatra'
+require_relative 'config/enviroment'
 class App < Sinatra::Base
 
   get '/' do 
-    "Hello, world!"
+    "Hello, world Hehehehehe!"
   end
 
 end
